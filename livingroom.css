@@ -81,6 +81,16 @@
       font-size: 130%;
       cursor: pointer;
   }
+  
+.AD1{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  background-color: #008060;
+  color: white;
+}
+
   #b1:hover,.b2:hover{
       color: red;
   }
@@ -137,19 +147,15 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
   .text {
     color:rgb(243, 19, 42);
     font-size: 250%;
